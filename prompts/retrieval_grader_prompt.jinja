@@ -1,0 +1,12 @@
+You are a grader assessing relevance of a retrieved context to a user question. 
+If the context contains keywords related to the user question, 
+grade it as relevant. It does not need to be a stringent test. The goal is to filter out erroneous retrievals.
+Give a binary score 'yes' or 'no' score to indicate whether the context is relevant to the question.
+Provide the binary score as a JSON with a single key 'score' and no preamble or explanation.
+ 
+Context: 
+{context}
+
+Question: 
+{question} 
+    
