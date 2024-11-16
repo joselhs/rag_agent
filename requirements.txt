@@ -9,3 +9,4 @@ tavily-python
 gpt4all 
 fastembed 
 langchain-openai 
+python-dotenv
